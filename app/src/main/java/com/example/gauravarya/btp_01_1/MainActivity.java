@@ -65,6 +65,11 @@ public class MainActivity extends AppCompatActivity {
             Paper.book().write("language","hi");
             updateView((String)Paper.book().read("language"));
         }
+        else if(item.getItemId()==R.id.language_gu)
+        {
+            Paper.book().write("language","gu");
+            updateView((String)Paper.book().read("language"));
+        }
         return true;
     }
 }
