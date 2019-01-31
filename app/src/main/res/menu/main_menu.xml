@@ -15,4 +15,8 @@
         android:id="@+id/language_hi"
         android:title="HINDI"
         app:showAsAction="never"/>
+    <item
+        android:id="@+id/language_gu"
+        android:title="GUJARATI"
+        app:showAsAction="never"/>
 </menu>
